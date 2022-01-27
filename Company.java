@@ -7,21 +7,25 @@ package com.example_Java;
  * @since 27-01-2022
  */
 public class Company {
+
     int id;
     String employeeName;
     static String companyName = "Qdev"; // Static variable
-    static void change(){ // Static method
+
+    static void change() { // Static method
         companyName = "Shreehari";
     }
-    static{ // Static block
+
+    static { // Static block
         System.out.println("Static block is initialized.");
     }
-    Company(int id, String employeeName){
+
+    Company(int id, String employeeName) {
         this.id = id;
         this.employeeName = employeeName;
-        System.out.println("Company name:"+companyName);
-        System.out.println("Id:"+id);
-        System.out.println("Employee's name:"+employeeName);
+        System.out.println("Company name:"+ companyName);
+        System.out.println("Id:"+ id);
+        System.out.println("Employee's name:"+ employeeName);
     }
 
     public static void main(String[] args) {

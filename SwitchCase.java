@@ -14,7 +14,7 @@ public class SwitchCase {
         Scanner scanner = new Scanner(System.in);
         int choice = scanner.nextInt();
 
-        switch ( choice ){
+        switch (choice) {
             case 1:
                 System.out.println("January"); // Print January
                 break;

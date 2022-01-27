@@ -16,7 +16,7 @@ public class StringMethods {
        String name1 = "Bond";
        System.out.println(name.concat(name1)); // Merge two string
        String name2 = "Bond";
-        System.out.println(name1.equals(name2)); // Testify two strings if same string occurs, then it will give as TRUE.
+       System.out.println(name1.equals(name2)); // Testify two strings if same string occurs, then it will give as TRUE.
     }
 
 }

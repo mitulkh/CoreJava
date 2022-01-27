@@ -13,7 +13,7 @@ public class WrapperClass {
         Integer object1 = new Integer(num1);
         int num2 = 12;
         Integer object2 = new Integer(num2);
-        if(num1 == num2){
+        if (num1 == num2) {
             System.out.println("Same");
         } else {
             System.out.println("Different");

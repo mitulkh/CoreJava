@@ -23,7 +23,7 @@ public class EmiCalculator {
         rate = rate / (12 * 100);
         time = time * 12;
         emi = (amount * rate * Math.pow(1 + rate ,time)) / (Math.pow(1 + rate ,time) - 1);
-        System.out.println("Monthly EMI is "+emi); // Print monthly emi
+        System.out.println("Monthly EMI is " + emi); // Print monthly emi
     }
 
 }

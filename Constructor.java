@@ -10,14 +10,14 @@ public class Constructor {
     int num1;
     int num2;
     float sum;
-    Constructor(){ // No argument Constructor
+    Constructor() { // No argument Constructor
         System.out.println("No argument Constructor");
     }
-    Constructor(int num1, int num2){ // Parameterized Constructor
+    Constructor(int num1, int num2) { // Parameterized Constructor
         this.num1 = num1; // This keyword points to the current class instance variable
         this.num2 = num2;
         sum = num1 + num2;
-        System.out.println("Sum of two number:"+sum);
+        System.out.println("Sum of two number:" + sum);
     }
 
     public static void main(String[] args) {
