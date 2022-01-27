@@ -7,14 +7,14 @@ import java.util.Scanner;
  * @version 1.0
  * @since 27-01-2022
  */
-public class IfElseStatementDemo {
-    
+public class Age {
+
     public static void main(String[] args) {
         System.out.println("Enter your age: "); // Print Enter your age:
-        Scanner scanner=new Scanner(System.in); // For User Input
-        int age=scanner.nextInt(); // Input a number from user
+        Scanner scanner=new Scanner(System.in);
+        int age=scanner.nextInt();
 
-        if(age >= 18) {
+        if (age >= 18) {
             System.out.println("You are eligible to Vote."); // Print You are eligible to Vote.
         } else {
             System.out.println("You are not eligible to Vote!!!"); // Print You are not eligible to Vote!!!
