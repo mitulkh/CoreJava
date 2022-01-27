@@ -6,13 +6,13 @@ package com.example_Java;
  * @version 1.0
  * @since 27-01-2022
  */
-abstract class Car{ // Abstract class
+abstract class Car { // Abstract class
 
     abstract void brake(); // Abstract Method
 
 }
 
-class Sedan extends Car{ // Subclass ( inherit from Car )
+class Sedan extends Car { // Subclass ( inherit from Car )
 
     void brake() {
         System.out.println("Sedan is slowing down");
