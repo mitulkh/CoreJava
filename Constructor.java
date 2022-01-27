@@ -10,9 +10,11 @@ public class Constructor {
     int num1;
     int num2;
     float sum;
+
     Constructor() { // No argument Constructor
         System.out.println("No argument Constructor");
     }
+
     Constructor(int num1, int num2) { // Parameterized Constructor
         this.num1 = num1; // This keyword points to the current class instance variable
         this.num2 = num2;
