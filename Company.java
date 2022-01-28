@@ -30,8 +30,8 @@ public class Company {
 
     public static void main(String[] args) {
         Company.change(); // Calling change method
-        Company company = new Company(101,"Mahesh"); // Creating Object
-        Company company1 = new Company(102,"Rajesh");
+        new Company(101, "Mahesh");
+        new Company(102, "Rajesh");
     }
 
 }

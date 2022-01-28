@@ -19,6 +19,7 @@ class Sedan extends Car {
     }
 
 }
+
 public class Abstraction {
 
     public static void main(String[] args) {
