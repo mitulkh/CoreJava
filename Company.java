@@ -1,4 +1,4 @@
-package com.example_Java;
+package com.exampleJava;
 
 /**
  * Practical 12 : program to demonstrate static methods,variables and blocks

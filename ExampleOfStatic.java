@@ -1,4 +1,4 @@
-package com.example_Java;
+package com.exampleJava;
 
 public class ExampleOfStatic {
 
