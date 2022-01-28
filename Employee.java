@@ -15,6 +15,7 @@ class Person {
         this.id = id;
         this.name = name;
     }
+
 }
 
 public class Employee extends Person {
