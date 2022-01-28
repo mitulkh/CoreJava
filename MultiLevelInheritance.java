@@ -1,7 +1,7 @@
 package com.exampleJava;
 
 /**
- * Practical 15 : Multiple Inheritance
+ * Practical 15 : Multilevel Inheritance
  * @author Mitul
  * @version 1.0
  * @since 27-01-2022
@@ -36,7 +36,7 @@ class Maruti800 extends Maruti {
 
 }
 
-public class MultipleInheritance {
+public class MultiLevelInheritance {
 
     public static void main(String[] args) {
         Maruti800 obj = new Maruti800();
