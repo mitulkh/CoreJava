@@ -1,4 +1,4 @@
-package com.example_Java;
+package com.exampleJava;
 
 /**
  * Practical 1 : program to print hello world

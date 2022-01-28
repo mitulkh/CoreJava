@@ -1,4 +1,4 @@
-package com.example_Java;
+package com.exampleJava;
 import java.util.Scanner;
 
 /**
@@ -10,14 +10,14 @@ import java.util.Scanner;
 public class ValidateAge {
 
     public static void main(String[] args) {
-        System.out.println("Enter your age: "); // Print Enter your age:
+        System.out.println("Enter your age: ");
         Scanner scanner = new Scanner(System.in);
         int age = scanner.nextInt();
 
-        if (age >= 18) {
-            System.out.println("You are eligible to Vote."); // Print You are eligible to Vote.
+        if (age >= 18) { // 18 or above age is eligible to vote
+            System.out.println("You are eligible to Vote.");
         } else {
-            System.out.println("You are not eligible to Vote!!!"); // Print You are not eligible to Vote!!!
+            System.out.println("You are not eligible to Vote!!!");
         }
     }
 

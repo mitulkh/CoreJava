@@ -1,4 +1,4 @@
-package com.example_Java;
+package com.exampleJava;
 
 /**
  * Practical 5 : program to demonstrate star pattern using for loop
@@ -13,7 +13,7 @@ public class StarPattern {
             for (int j = 0; j <= i; j++) { // Loop for column
                 System.out.print("*"); // Print stars
             }
-            System.out.println(); // For new line
+            System.out.println();
         }
     }
 

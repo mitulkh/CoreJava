@@ -1,4 +1,4 @@
-package com.example_Java;
+package com.exampleJava;
 
 /**
  * Practical 11 : program to use this/super variable

@@ -1,4 +1,4 @@
-package com.example_Java;
+package com.exampleJava;
 import java.util.Scanner;
 
 /**
@@ -10,49 +10,49 @@ import java.util.Scanner;
 public class SwitchCase {
 
     public static void main(String[] args) {
-        System.out.println("Enter a number from 1 to 12:"); // Print Enter a number from 1 to 12:
+        System.out.println("Enter a number from 1 to 12:");
         Scanner scanner = new Scanner(System.in);
         int choice = scanner.nextInt();
 
         switch (choice) {
             case 1:
-                System.out.println("January"); // Print January
+                System.out.println("January");
                 break;
             case 2:
-                System.out.println("February"); // Print February
+                System.out.println("February");
                 break;
             case 3:
-                System.out.println("March"); // Print March
+                System.out.println("March");
                 break;
             case 4:
-                System.out.println("April"); // Print April
+                System.out.println("April");
                 break;
             case 5:
-                System.out.println("May"); // Print May
+                System.out.println("May");
                 break;
             case 6:
-                System.out.println("June"); // Print June
+                System.out.println("June");
                 break;
             case 7:
-                System.out.println("July"); // Print July
+                System.out.println("July");
                 break;
             case 8:
-                System.out.println("August"); // Print August
+                System.out.println("August");
                 break;
             case 9:
-                System.out.println("September"); // Print September
+                System.out.println("September");
                 break;
             case 10:
-                System.out.println("October"); // Print October
+                System.out.println("October");
                 break;
             case 11:
-                System.out.println("November"); // Print November
+                System.out.println("November");
                 break;
             case 12:
-                System.out.println("December"); // Print December
+                System.out.println("December");
                 break;
             default:
-                System.out.println("Enter a valid number!!"); // Print Enter a valid number!!
+                System.out.println("Enter a valid number!!");
         }
     }
 

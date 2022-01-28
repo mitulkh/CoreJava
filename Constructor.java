@@ -1,4 +1,4 @@
-package com.example_Java;
+package com.exampleJava;
 
 /**
  * Practical 7 :  Example of constructor and parameterized constructor
