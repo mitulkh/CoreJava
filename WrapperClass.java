@@ -10,10 +10,10 @@ public class WrapperClass {
 
     public static void main(String[] args) {
         int num1 = 23;
-        Integer object1 = new Integer(num1);
+        Integer object1 = Integer.valueOf(num1);
         int num2 = 12;
-        Integer object2 = new Integer(num2);
-        if (num1 == num2) {
+        Integer object2 = Integer.valueOf(num2);
+        if (object1 == object2) {
             System.out.println("Same");
         } else {
             System.out.println("Different");
