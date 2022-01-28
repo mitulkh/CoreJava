@@ -9,9 +9,9 @@ package com.exampleJava;
 public class WrapperClass {
 
     public static void main(String[] args) {
-        int num1 = 512;
+        int num1 = 612;
         Integer object1 = Integer.valueOf(num1);
-        int num2 = 512;
+        int num2 = 612;
         Integer object2 = Integer.valueOf(num2);
         if (object1.equals(object2)) {
             System.out.println("Same");
