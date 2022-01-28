@@ -1,5 +1,4 @@
 package com.example_Java;
-
 import java.util.Scanner;
 
 /**
@@ -11,19 +10,18 @@ import java.util.Scanner;
 public class EmiCalculator {
 
     public static void main(String[] args) {
-        double amount,rate,time,emi;
         System.out.println("Enter amount:");
         Scanner scanner = new Scanner(System.in);
-        amount = scanner.nextFloat();
+        double amount = scanner.nextFloat();
         System.out.println("Enter rate:");
-        rate = scanner.nextFloat();
+        double rate = scanner.nextFloat();
         System.out.println("Enter time:");
-        time = scanner.nextFloat();
+        double time = scanner.nextFloat();
 
-        rate = rate / (12 * 100);
-        time = time * 12;
-        emi = (amount * rate * Math.pow(1 + rate ,time)) / (Math.pow(1 + rate ,time) - 1);
-        System.out.println("Monthly EMI is " + emi); // Print monthly emi
+        rate = rate / (12 * 100); // One month Interest
+        time = time * 12; // One month period
+        double emi = (amount * rate * Math.pow(1 + rate, time)) / (Math.pow(1 + rate, time) - 1); // Calculate emi based on amount,rate and time
+        System.out.println("Monthly EMI is " + emi);
     }
 
 }

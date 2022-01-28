@@ -1,6 +1,5 @@
 package com.example_Java;
 
-
 public class ExampleOfStatic {
 
     static {

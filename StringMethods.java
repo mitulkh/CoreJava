@@ -9,14 +9,14 @@ package com.example_Java;
 public class StringMethods {
 
     public static void main(String[] args) {
-       String name = "James ";
-       char result;
-       result=name.charAt(2); // Read character
-       System.out.println(result);
-       String name1 = "Bond";
-       System.out.println(name.concat(name1)); // Merge two string
-       String name2 = "Bond";
-       System.out.println(name1.equals(name2)); // Testify two strings if same string occurs, then it will give as TRUE.
+        String name = "James ";
+        char result;
+        result=name.charAt(2); // Read character
+        System.out.println(result);
+        String name1 = "Bond";
+        System.out.println(name.concat(name1)); // Merge two string
+        String name2 = "Bond";
+        System.out.println(name1.equals(name2)); // Testify two strings if same string occurs, then it will give as TRUE.
     }
 
 }

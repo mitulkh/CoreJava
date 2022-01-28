@@ -6,7 +6,8 @@ package com.example_Java;
  * @version 1.0
  * @since 27-01-2022
  */
-class Person { // Parent class
+class Person {
+
     int id;
     String name;
 
@@ -16,7 +17,8 @@ class Person { // Parent class
     }
 }
 
-public class Employee extends Person { // child class
+public class Employee extends Person {
+
     float salary;
 
     Employee(int id, String name, float salary) {
@@ -28,7 +30,7 @@ public class Employee extends Person { // child class
     }
 
     public static void main(String[] args) {
-        Employee employee = new Employee(102,"James",10000);
+        new Employee(102, "James", 10000);
     }
 
 }
