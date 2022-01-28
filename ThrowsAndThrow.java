@@ -10,7 +10,7 @@ public class ThrowsAndThrow {
 
     void validateAge() throws ArithmeticException { // Declare Exception
         int age = 19;
-        if(age >= 18) {
+        if (age >= 18) {
             System.out.println("Allow to driving a car");
         } else {
             throw new ArithmeticException("Don't allow to drive");
