@@ -9,17 +9,15 @@ package com.exampleJava;
 public class NumberExample {
 
     public static void main(String[] args) {
-        first:
-        for (int i = 1; i <= 5; i++) {
-            second:
-            for (int j = 1; j <= 5; j++) {
+        first: for (int i = 1; i <= 5; i++) {
+            second: for (int j = 1; j <= 5; j++) {
                 if (i == 3 && j == 3) {
                     break first; // Terminate the loop
                 }
                 if (i == 2 && j == 3) {
                     continue second;
                 }
-                System.out.println(i+" "+j);
+                System.out.println(i + " " + j);
             }
         }
     }

@@ -14,12 +14,12 @@ class User {
 
     void multiply() { // Method with no parameters
         multiply = a * b;
-        System.out.println("Multiplying two numbers:"+ multiply);
+        System.out.println("Multiplying two numbers:" + multiply);
     }
 
     void multiply(int a, int b) { // Method with Parameters
         multiply = a * b;
-        System.out.println("Multiplying two numbers:"+ multiply);
+        System.out.println("Multiplying two numbers:" + multiply);
     }
 
 }
