@@ -8,13 +8,12 @@ package com.exampleJava;
  */
 public class Constructor {
 
-    float sum;
-
     Constructor() {
         System.out.println("No argument Constructor");
     }
 
     Constructor(int num1, int num2) {
+        float sum;
         sum = num1 + num2;
         System.out.println("Sum of two number:" + sum);
     }

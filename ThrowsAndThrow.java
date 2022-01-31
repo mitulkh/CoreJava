@@ -18,7 +18,6 @@ public class ThrowsAndThrow {
     }
 
     public static void main(String[] args) throws ArithmeticException { // Declare Exception
-
         ThrowsAndThrow exception = new ThrowsAndThrow();
         exception.validateAge();
     }
