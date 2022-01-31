@@ -26,9 +26,9 @@ public class IndexOfArray {
     }
 
     public static void main(String[] args) {
-        int[] my_array = {44, 22, 11, 33, 55, 77, 66, 54, 67};
-        System.out.println("Index position of 33 is: " + findIndex(my_array, 33));
-        System.out.println("Index position of 66 is: " + findIndex(my_array, 66));
+        int[] myArray = {44, 22, 11, 33, 55, 77, 66, 54, 67};
+        System.out.println("Index position of 33 is: " + findIndex(myArray, 33));
+        System.out.println("Index position of 66 is: " + findIndex(myArray, 66));
     }
 
 }

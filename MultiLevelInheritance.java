@@ -41,10 +41,10 @@ class Maruti800 extends Maruti {
 public class MultiLevelInheritance {
 
     public static void main(String[] args) {
-        Maruti800 obj = new Maruti800();
-        obj.vehicleType();
-        obj.brand();
-        obj.speed();
+        Maruti800 object = new Maruti800();
+        object.vehicleType();
+        object.brand();
+        object.speed();
     }
 
 }

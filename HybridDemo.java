@@ -48,12 +48,12 @@ class HourlyJuniorWorker extends JuniorWorker {
 public class HybridDemo {
 
     public static void main(String[] args) {
-        HourlyJuniorWorker emp = new HourlyJuniorWorker();
-        emp.hoursWorked = 10;
-        emp.firstName = "Ramesh";
-        emp.lastName = "Patel";
-        emp.age = 27;
-        System.out.println(emp.computePay()); // Calculate Payment of Hourly-based Worker
+        HourlyJuniorWorker juniorWorker = new HourlyJuniorWorker();
+        juniorWorker.hoursWorked = 10;
+        juniorWorker.firstName = "Ramesh";
+        juniorWorker.lastName = "Patel";
+        juniorWorker.age = 27;
+        System.out.println(juniorWorker.computePay()); // Calculate Payment of Hourly-based Worker
     }
 
 }

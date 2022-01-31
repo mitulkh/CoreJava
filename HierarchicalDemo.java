@@ -10,7 +10,7 @@ class Worker {
 
     float salary = 10000;
 
-    void dispSalary() {
+    void displaySalary() {
         System.out.println("The Worker Salary is " + salary);
     }
 
@@ -41,9 +41,9 @@ public class HierarchicalDemo {
     public static void main(String[] args) {
         TemporaryWorker temporaryWorker = new TemporaryWorker();
         PermanentWorker permanentWorker = new PermanentWorker();
-        temporaryWorker.dispSalary();
+        temporaryWorker.displaySalary();
         temporaryWorker.incrementSalary();
-        permanentWorker.dispSalary();
+        permanentWorker.displaySalary();
         permanentWorker.incrementSalary();
     }
 
